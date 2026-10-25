@@ -1,0 +1,9 @@
+column,description,data_type,notes
+patient_id,Synthetic record identifier,String,Not used for model training
+age,Age in years,Integer,Simulated; 25–75
+bmi,Body mass index,Float,Simulated; kg/m²
+blood_pressure,Systolic blood pressure (approximate),Integer,Simulated; mmHg
+glucose,Glucose measurement (approximate),Integer,Simulated; units are illustrative
+cholesterol,Total cholesterol (approximate),Integer,Simulated; units are illustrative
+smoking,"Smoking indicator (0=no, 1=yes)",Integer,Simulated binary feature
+label,Simulated positive-risk label (0/1),Integer,Generated from a noisy illustrative rule; NOT a clinical diagnosis

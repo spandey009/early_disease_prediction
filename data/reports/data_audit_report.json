@@ -1,0 +1,41 @@
+{
+    "dataset_file": "c:\\Users\\saura\\OneDrive\\Desktop\\early_disease_prediction\\data\\dataset.csv",
+    "number_of_rows": 5000,
+    "number_of_columns": 8,
+    "columns": [
+        "patient_id",
+        "age",
+        "bmi",
+        "blood_pressure",
+        "glucose",
+        "cholesterol",
+        "smoking",
+        "label"
+    ],
+    "missing_values": {
+        "patient_id": 0,
+        "age": 0,
+        "bmi": 0,
+        "blood_pressure": 0,
+        "glucose": 0,
+        "cholesterol": 0,
+        "smoking": 0,
+        "label": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_patient_ids": 0,
+    "label_distribution": {
+        "0": 2500,
+        "1": 2500
+    },
+    "valid_binary_labels": true,
+    "invalid_value_counts": {
+        "age_outside_0_to_120": 0,
+        "bmi_nonpositive": 0,
+        "blood_pressure_nonpositive": 0,
+        "glucose_nonpositive": 0,
+        "cholesterol_nonpositive": 0,
+        "smoking_not_0_or_1": 0
+    },
+    "warning": "Passing these checks does not establish that labels are medically correct or that the dataset represents real patients."
+}

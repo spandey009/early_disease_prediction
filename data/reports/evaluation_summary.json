@@ -1,0 +1,14 @@
+{
+    "selected_model": "Logistic Regression",
+    "selection_metric": "F1 Score",
+    "metrics": {
+        "Model": "Logistic Regression",
+        "Accuracy": 0.68,
+        "Precision": 0.6875,
+        "Recall": 0.66,
+        "F1 Score": 0.673469387755102,
+        "ROC-AUC": 0.7375240000000001
+    },
+    "dataset_type": "Synthetic demonstration data",
+    "clinical_warning": "These metrics do not establish clinical validity or real-world disease prediction performance."
+}
